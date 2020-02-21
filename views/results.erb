@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>Exercise: Sinatra erb plus SQL</title>
+  </head>
+
+  <body>
+      
+    <h1> Exercise: Sinatra erb plus SQL </h1>
+    
+    <% @my_array.each do |row| %>
+        <% row.each do |att| %>
+            <%= att %>
+        <% end %>
+        <br/>
+    <% end %>
+        
+
+  </body>
+  
+</html>

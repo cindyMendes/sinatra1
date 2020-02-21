@@ -129,8 +129,3 @@ end
 get "/greet" do
   "Hello #{session[:name]}!"
 end 
-
-
-
-
-
