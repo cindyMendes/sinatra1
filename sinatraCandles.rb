@@ -9,5 +9,6 @@ end
 
 
 post '/candles' do
+  @num = params[:numCandles].to_i
   erb :candles
 end 
